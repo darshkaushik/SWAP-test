@@ -1,7 +1,7 @@
-# SWAP-test - An illustrative guide to implement single and multi-qubit SWAP test using Qiskit
+# SWAP-test - single and multi-qubit SWAP test using Qiskit
 Dependencies:
 
-I have tried to use very few dependencies and tried to define the elementary functions so that beginners in qiskit or python can get familiar with basic qiskit functionalities.
+I have tried to use very few dependencies and tried to define the elementary functions myself.
 
 [Qiskit](https://qiskit.org/documentation/getting_started.html) (with visualization support) is the only dependency. To install it - 
 ```
@@ -11,11 +11,11 @@ pip install qiskit[visualization]
 
 #### The [Swap test](https://en.wikipedia.org/wiki/Swap_test) is a simple quantum circuit which, given two states, allows to compute how much do they differ from each other.
 
-SWAP test is a classic example in quantum computing which can be used as base example to learn various functionalities in qiskit. This [tutorial](swap_test.ipynb) uses some utility functions defined in [swap_test_state_solver.py](swap_test_state_solver.py) to avoid much cluttering and I suggest checking them out too, I have tried to keep enough docstrings for each function and hope that it will be useful. 
+SWAP test is a classic example in quantum computing which can be used as base example to get acquainted with various functionalities in qiskit. This [notebook](swap_test.ipynb) uses some utility functions defined in [swap_test_state_solver.py](swap_test_state_solver.py) to avoid much cluttering, I have tried to keep enough docstrings for each function and hope that other will find it useful. 
 
 Swap test is one of the simpler concepts and can be a good way to get started with Qiskit. I have tried my best to provide images with annotations for better explanation as I struggled when I was learning it due to lack of visualizations.
 
-This tutorial will try to cover the following sub-tasks:
+This project will try to cover the following sub-tasks:
 <ol>
 <li>Build a variational circuit which generates the most general 1 qubit state (any point in the Bloch sphere can be reached). 
 <li>Using the circuit (built in step 1) and the SWAP test, find the best choice of parameters to reproduce a randomly generated quantum state made with 1 qubit.
