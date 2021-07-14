@@ -14,6 +14,7 @@ Is not.
 <li>Perform a qubit by qubit SWAP test to reconstruct the state. This part of the problem can be solved via a simple grid search.
 </ol>
 
+<hr>
 
 swap_test_state_solver.py : Python script contains the helper functions for state creation, SWAP testing and state recreation.
 
