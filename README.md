@@ -1,4 +1,4 @@
-# SWAP-test - An illustrative guide to implement quantum SWAP test using Qiskit.
+# SWAP-test - An illustrative guide to implement quantum SWAP test using Qiskit
 
 #### The Swap test is a simple quantum circuit which, given two states, allows to compute how much do they differ from each other.
 
